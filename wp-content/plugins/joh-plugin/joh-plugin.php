@@ -122,3 +122,17 @@ function joh_plugin_custom_archive_template($template) {
 }
 
 add_filter('template_include', 'joh_plugin_custom_archive_template');
+
+// Filter to modify the title of the "Brands" archive page
+function joh_modify_brands_archive_title($title) {
+    // Check if we are on the Brands archive page
+    if (is_post_type_archive('brands')) {
+        // Change the title to "The Brands Clicking Game"
+        return 'The Brands Clicking Game';
+    }
+
+    return $title;
+}
+
+// Hook the filter into WordPress
+add_filter('wp_title', 'joh_modify_brands_archive_title');
