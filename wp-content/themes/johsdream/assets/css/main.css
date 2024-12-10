@@ -3476,8 +3476,8 @@ input, select, textarea {
 			opacity: 1;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-size: 2.25em;
-			margin-bottom: 0.8em;
-			padding-bottom: 0.4em;
+			margin-bottom: 0.1em;
+			padding-bottom: 0.1em;
 		}
 
 		#banner p {
@@ -3509,14 +3509,14 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 7em 0 8.25em 0 ;
+				padding: 1em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 				background-size: auto,
  cover;
 				background-position: center,
  center;
-				margin-bottom: -6.5em;
+				margin-bottom: -1.5em;
 			}
 
 		}
@@ -3524,8 +3524,8 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 12em 3em 12.375em 3em ;
-				margin-bottom: -4.75em;
+				padding: 1em 1em 1em 1em ;
+				margin-bottom: -1.75em;
 			}
 
 				#banner .inner {
@@ -3621,7 +3621,7 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#wrapper > header {
-			padding: 9em 0 6.25em 0 ;
+			padding: 19em 0 6.25em 0 ;
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto,
